@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Watches GitHub repository for issues and pull requests with 'claude' label",
   "main": "index.js",
+  "bin": {
+    "claude-git-swe": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
