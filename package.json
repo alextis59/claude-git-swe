@@ -1,0 +1,16 @@
+{
+  "name": "claude-git-swe",
+  "version": "1.0.0",
+  "description": "Watches GitHub repository for issues and pull requests with 'claude' label",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "node-cron": "^3.0.0",
+    "git-url-parse": "^11.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
