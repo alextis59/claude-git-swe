@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Octokit } = require('@octokit/rest');
 const cron = require('node-cron');
 const GitUrlParse = require('git-url-parse');
